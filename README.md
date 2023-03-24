@@ -1,8 +1,6 @@
-# Laravel Stripe Cashier - Laravel-10
+# Automatically Generate Sitemap in Laravel - Laravel-10
 
-<img width="1430" alt="Stripe_admin_dashboard" src="https://user-images.githubusercontent.com/55048197/224141687-f339bf49-a2d1-43f0-bf3d-8b8fc4cca61f.png">
-<img width="1430" alt="stripe_all_plans" src="https://user-images.githubusercontent.com/55048197/224142319-ce162a15-5ed1-4fa1-9c16-294775690e47.png">
-<img width="1430" alt="stripe_plans" src="https://user-images.githubusercontent.com/55048197/224142398-f8868629-0d6d-4e09-b89c-8f15cde5e80a.png">
+<img width="1440" alt="laravel-sitemap" src="https://user-images.githubusercontent.com/55048197/227634928-563744ff-b249-43ff-8acf-566a72faf137.png">
 
 ## Installation
 
