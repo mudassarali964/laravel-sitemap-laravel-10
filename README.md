@@ -135,18 +135,18 @@ $ composer require spatie/laravel-sitemap
 * Configuration Package - This will copy the default config to config/sitemap.php where you can edit it.
 ``` bash
 $ php artisan vendor:publish --provider="Spatie\Sitemap\SitemapServiceProvider" --tag=sitemap-config
-$ php artisan migrate
+$ php artisan migrate --seed
 ```
 
-* Sitemap working
+### Sitemap working
 
-File: App/Console/Commands/GenerateSitemap
+File: App/Console/Commands/GenerateSitemap (sitemap generating code)
 Run the following command to create a new sitemap urls:
 ``` bash
 $ php artisan sitemap:generate
 ```
 
-It should be create a new file as sitemap.xml in the public directory (public/sitemap.xml)
+It should be create a new file as sitemap.xml in the public directory (public_path('sitemap.xml') => public/sitemap.xml)
 And now we can easily access the post related urls as:
 
 http://127.0.0.1:8000/post/{slug}
