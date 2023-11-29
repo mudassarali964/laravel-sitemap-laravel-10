@@ -1,6 +1,6 @@
 # Automatically Generate Sitemap in Laravel - Laravel-10
 
-<img width="1440" alt="laravel-sitemap" src="https://user-images.githubusercontent.com/55048197/227634928-563744ff-b249-43ff-8acf-566a72faf137.png">
+<img width="1440" alt="image" src="https://github.com/mudassarali964/laravel-sitemap-laravel-10/assets/55048197/74fab60c-7e81-485f-b017-f4f244b817e0">
 
 ## Installation
 
@@ -137,3 +137,18 @@ $ composer require spatie/laravel-sitemap
 $ php artisan vendor:publish --provider="Spatie\Sitemap\SitemapServiceProvider" --tag=sitemap-config
 $ php artisan migrate
 ```
+
+* Sitemap working
+
+File: App/Console/Commands/GenerateSitemap
+Run the following command to create a new sitemap urls:
+``` bash
+$ php artisan sitemap:generate
+```
+
+It should be create a new file as sitemap.xml in the public directory (public/sitemap.xml)
+And now we can easily access the post related urls as:
+
+http://127.0.0.1:8000/post/{slug}
+http://127.0.0.1:8000/post/525
+http://127.0.0.1:8000/post/758
